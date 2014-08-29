@@ -1,0 +1,105 @@
+#+STARTUP:indent
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+#+HTML_HEAD_EXTRA: <link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono|Ubuntu' rel='stylesheet' type='text/css'>
+#+OPTIONS: f:nil author:nil num:1 creator:nil timestamp:nil 
+#+TITLE: Track repairs
+#+AUTHOR: Stephen Brown
+
+#+BEGIN_HTML
+<div class=ribbon>
+<a href="https://github.com/stsb11/license">Fork me on GitHub</a>
+</div>
+#+END_HTML
+
+* COMMENT Use as a template
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:
+** Learn It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+
+** Research It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: research
+:END:
+
+** Design It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: design
+:END:
+
+** Build It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: build
+:END:
+
+** Test It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: test
+:END:
+
+** Run It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: run
+:END:
+
+** Document It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: document
+:END:
+
+** Code It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: code
+:END:
+
+** Program It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: program
+:END:
+
+** Try It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: try
+:END:
+
+** Badge It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: badge
+:END:
+
+** Save It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: save
+:END:
+
+* Track Repairs
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:
+We're nearly there now, and you'll soon have the skills you need for nearly all the soldering work you'll perform up to A level! Sometimes, when we solder together a PCB, the tracks can lift off due to overheating, or through imperfections in the way the board was manufactured. When this happens, rather than make a whole new PCB and start from scratch, we can perform track repairs.
+
+** Your first repair
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+- To perform a track repair, a short piece of wire (single-core, or a resistor leg) is soldered either side of where there is a break in the PCB track. The areas you need to repair have "Fix" written on them.
+[[./img/track_repairs.jpg]]
+- Step 1: Start by taking a resistor (any value you like), and cutting the leg off it, as shown in the picture above. You could also cut the other leg off at this point too for your second repair. Don't lose it, though!
+- Step 2: Use a side cutter to shorten the resistor leg, so that it sits about 2mm either side of the gap you're going to repair. Now, using scissors, cut a thin piece of masking tape, and use this to stick the wire over the gap and to hold it in place on the PCB. This is very fiddly, so it might take a few attempts to get it right. Just make sure its sitting nice and flat on the PCB.
+- Step 3: Carefully put the soldering iron onto the PCB, ensuring that you heat up both the leg and the track. After 3s, apply a small amount of solder, which should flow neatly onto the area. Remove the soldering iron slowly, then after a few seconds check that the wire has bonded to the track. Repeat the process for the other end of the repair.
+- Step 4: Remove the tape, and gently check that both sides are bonded to the board. You can now repeat the process for the other repair. 
+* Finishing Touches
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:
+** Sanding edges and corners
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: build
+:END:
+[[./img/done.jpg]]
+- Your soldering license is now complete, and ready for multimeter testing to confirm everything works properly. If you're going to put it on your keys, you can use a sheet of glasspaper to gently round the corners and edges off your PCB to stop it from ripping your pockets up. Well done!
+
+[[./index.html][Back to homepage]]

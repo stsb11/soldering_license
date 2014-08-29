@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<title>The Soldering License</title>
+<meta  http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta  name="generator" content="Org-mode" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { color: green; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: visible;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  pre.src-sh:before    { content: 'sh'; }
+  pre.src-bash:before  { content: 'sh'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-R:before     { content: 'R'; }
+  pre.src-perl:before  { content: 'Perl'; }
+  pre.src-java:before  { content: 'Java'; }
+  pre.src-sql:before   { content: 'SQL'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.right  { text-align: center;  }
+  th.left   { text-align: center;   }
+  th.center { text-align: center; }
+  td.right  { text-align: right;  }
+  td.left   { text-align: left;   }
+  td.center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara:nth-child(2) { display: inline; }
+  .footpara { display: block; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  /*]]>*/-->
+</style>
+<link rel="stylesheet" type="text/css" href="css/styles.css"/>
+<link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono|Ubuntu' rel='stylesheet' type='text/css'>
+<script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2013 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+</head>
+<body>
+<div id="content">
+<h1 class="title">The Soldering License</h1>
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#sec-1">1. Introduction</a>
+<ul>
+<li><a href="#sec-1-1">Drill it</a></li>
+<li><a href="#sec-1-2">Solder it</a></li>
+</ul>
+</li>
+<li><a href="#sec-2">2. All about resistors</a>
+<ul>
+<li><a href="#sec-2-1">Learn it</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div class=ribbon>
+<a href="GITHUB URL HERE">Fork me on GitHub</a>
+</div>
+<center>
+<img src='img/done.jpg' width=33%>
+</center>
+
+<div id="outline-container-sec-1" class="outline-2 activity">
+<h2 id="sec-1"><span class="section-number-2">1</span> Introduction</h2>
+<div class="outline-text-2" id="text-1">
+</div>
+<div id="outline-container-sec-1-1" class="outline-3 try">
+<h3 id="sec-1-1">Drill it</h3>
+<div class="outline-text-3" id="text-1-1">
+<ul class="org-ul">
+<li>Before you can create the next Martian lander, we'll need to cover some basics on soldering, component identification and multimeter usage. 
+</li>
+<li>Around three quarters of the problems students have with their circuits are down to poor soldering, or inserting components incorrectly. 
+</li>
+<li>This project will help you develop these skills, and at the end, you'll have a PCB which you can use to show how good you are at soldering neatly.
+</li>
+<li>Before you begin, pick up a copy of the task sheet from <a href="./resources/task_sheet.docx"><b><b>here</b></b></a>, and save it in your H: drive, in your S&amp;C folder. You'll need to regularly update this as you progress through the project.
+</li>
+<li>Once you've gotten your soldering license PCB from your teacher, the first thing to do is to drill a 3mm hole in the bottom-left corner pad, using a pillar drill&#x2026;
+</li>
+</ul>
+
+<div class="figure">
+<p><img src="./img/3mm_hole.jpg" alt="3mm_hole.jpg" />
+</p>
+</div>
+<ul class="org-ul">
+<li>Then, using a 1mm drill-bit in one of the precision drills, drill out all the other pads on the PCB. Take care to drill through smoothly, and try to get as close to the centre of all the pads as possible. This will make things much easier for you when you start soldering if you do this well.
+</li>
+</ul>
+
+<div class="figure">
+<p><img src="./img/1mm_holes.jpg" alt="1mm_holes.jpg" />
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-sec-1-2" class="outline-3 try">
+<h3 id="sec-1-2">Solder it</h3>
+<div class="outline-text-3" id="text-1-2">
+<ul class="org-ul">
+<li>Time to solder your first component. Plug a soldering iron in, ensure you're wearing an apron and goggles and that any long hair is tied back. The iron will take about 5 minutes to warm up. 
+</li>
+<li>Wet the sponge under the tap, and wring it out, so it's damp but not dripping. 
+</li>
+<li>Take a <span class="underline"><span class="underline">Rectifier</span></span> diode from the component trays, and look at it closely. Some components need to be inserted a certain way round, like this diode, which only allows electric current to flow through it in one direction.
+</li>
+<li>The grey band on one end is like an arrow-head, indicating the direction of current-flow. There's also an arrow on the PCB between two of your holes. This is where the diode needs to go.
+</li>
+<li>When soldering, the top of the board (the side with nothing on it) is called the "Component side", and is where all your components will sit when you're finished.
+</li>
+<li>The side with all the shiny tracks and pads drawn on it is called the "Solder side", and is the side we apply solder to.
+</li>
+<li>Place your diode through the holes, so that the grey band points the same way as the arrow-head, then bend the legs of the component out at about 45 degrees. This will stop the component from falling out fo the board when you solder it. 
+</li>
+<li>DON'T LAY THE LEGS DOWN FLAT AGAINST THE BOARD.
+</li>
+</ul>
+
+<div class="figure">
+<p><img src="./img/diode1.jpg" alt="diode1.jpg" /> 
+</p>
+</div>
+<ul class="org-ul">
+<li>The aim of soldering is to join two metals together; in this case, the metal on the pad on the PCB and the component leg. To achieve this, both surfaces must be heated up for a few seconds, then solder can be melted which will flow on to both metals.
+</li>
+</ul>
+<p>
+1 Place the tip of the soldering iron so that it is touching both the pad and the component leg. There is a flat edge on most irons which can be pushed against the leg, so that the very tip of the iron can make contact with the pad.
+</p>
+
+<p>
+2 Count 3 seconds in your head, then (keeping the soldering iron in place) feed in a small amount of solder at the tip of the soldering iron. As long as the pad and leg are hot, the solder should flow oto the PCB nicely.
+</p>
+
+<p>
+3 Slowly remove the solder, then slowly remove the soldering iron, in that order. There should be a neat "mountain" of solder covering both the pad and the leg. The hole inthe PCB should no longer be visible.
+</p>
+
+<p>
+4 Use a side-cutter to remove the excess leg sticking out of the board. Picture 4 shows a couple more components placed, too - we'll add these in a moment.
+<img src="./img/soldering.jpg" alt="soldering.jpg" />
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-sec-2" class="outline-2 activity">
+<h2 id="sec-2"><span class="section-number-2">2</span> All about resistors</h2>
+<div class="outline-text-2" id="text-2">
+</div>
+<div id="outline-container-sec-2-1" class="outline-3 learn">
+<h3 id="sec-2-1">Learn it</h3>
+<div class="outline-text-3" id="text-2-1">
+<ul class="org-ul">
+<li>Resistors are probably the most commonly used components in our projects. The purpose of a resistor is to reduce the flow of electrical current in a circuit. They can be set up to reduce the voltage too, but we'll look at that in another module.
+</li>
+<li>Resistance is measured on Ohms - the larger the number of Ohms, the less current can flow through a circuit. 
+</li>
+<li>As the components are small, engineers realised a long time ago that writing the value of the resistor on the component wasn't practical, so instead they developed a system using coloured bands. We'll look at this now.
+</li>
+<li>When you hold a resistor in your hand, have the gold band facing right. The gold band indicates that these are high-quality resistors, which are accurate to +/-5%. If they had a silver band, they'd only be +/-10%. 
+</li>
+<li>The colour scheme more or less follows the colours of the rainbow, but with some quirks.
+</li>
+</ul>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="left" />
+
+<col  class="right" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="left">Colour</th>
+<th scope="col" class="right">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="left">Black</td>
+<td class="right">0</td>
+</tr>
+
+<tr>
+<td class="left">Brown</td>
+<td class="right">1</td>
+</tr>
+
+<tr>
+<td class="left">Red</td>
+<td class="right">2</td>
+</tr>
+
+<tr>
+<td class="left">Orange</td>
+<td class="right">3</td>
+</tr>
+
+<tr>
+<td class="left">Yellow</td>
+<td class="right">4</td>
+</tr>
+
+<tr>
+<td class="left">Green</td>
+<td class="right">5</td>
+</tr>
+
+<tr>
+<td class="left">Blue</td>
+<td class="right">6</td>
+</tr>
+
+<tr>
+<td class="left">Purple</td>
+<td class="right">7</td>
+</tr>
+
+<tr>
+<td class="left">Grey</td>
+<td class="right">8</td>
+</tr>
+
+<tr>
+<td class="left">White</td>
+<td class="right">9</td>
+</tr>
+</tbody>
+</table>
+
+<ul class="org-ul">
+<li>I use a mnemonic to help me remember: "Bloody, Broken Richard Of York Gave Battle Purple"
+</li>
+<li>(You very rarely see grey and white banded resistors)
+</li>
+<li>To read a resistor, you start by writing down the value for the left-most coloured band.
+</li>
+<li>You then write the value of the next coloured band next to it.
+</li>
+<li>The third band tells you how many zeros to write after that. Let's do some examples&#x2026;
+</li>
+<li>Orange (3), Orange (3), Brown (0), Gold - 330 Ohms
+</li>
+<li>Brown (1), Black (0), Yellow (0000), Gold - 100000 Ohms
+</li>
+<li>People recognised that sometimes, it'd be nice to have a shorthand to avoid writing out lots of zeros. 
+</li>
+<li>Rather than writing a number like 10,000, electronic engineers tend to knock off the last 3 zeros and write 10k instead.
+</li>
+<li>Rather than writing 2200, people can also write 2k2. You'll see this quite a bit when you look at the component racks in the classroom.
+</li>
+<li>In the next step, we'll add resistors.
+</li>
+</ul>
+
+<p>
+<a href="./index.html">Back to homepage</a>
+</p>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="validation"></p>
+</div>
+</body>
+</html>

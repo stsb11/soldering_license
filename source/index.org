@@ -1,0 +1,39 @@
+#+STARTUP:indent
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+#+HTML_HEAD_EXTRA: <link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono|Ubuntu' rel='stylesheet' type='text/css'>
+#+BEGIN_COMMENT
+#+STYLE: <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+#+STYLE: <link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono|Ubuntu' rel='stylesheet' type='text/css'>
+#+END_COMMENT
+#+OPTIONS: f:nil author:nil num:1 creator:nil timestamp:nil 
+
+#+TITLE: The soldering license
+#+AUTHOR: Stephen Brown
+#+OPTIONS: toc:nil f:nil author:nil num:nil creator:nil timestamp:nil 
+
+#+BEGIN_HTML
+<div class=ribbon>
+<a href="https://github.com/stsb11/license">Fork me on GitHub</a>
+</div>
+#+END_HTML
+* [[file:step_1.html][Lesson 1 - Drilling and Soldering Technique]]
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:
+* [[file:step_2.html][Lesson 2 - Soldering Resistors and Chip Carrier]]
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:
+* [[./step_3.org][Lesson 3 - Link Wires]]
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:
+
+* [[file:step_4.html][Lesson 4 - Track Repairs]]
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:
+* [[./step_5.html][Lesson 5 - The Multimeter]]
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:

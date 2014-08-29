@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<title>Link Wires</title>
+<meta  http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta  name="generator" content="Org-mode" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { color: green; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: visible;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  pre.src-sh:before    { content: 'sh'; }
+  pre.src-bash:before  { content: 'sh'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-R:before     { content: 'R'; }
+  pre.src-perl:before  { content: 'Perl'; }
+  pre.src-java:before  { content: 'Java'; }
+  pre.src-sql:before   { content: 'SQL'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.right  { text-align: center;  }
+  th.left   { text-align: center;   }
+  th.center { text-align: center; }
+  td.right  { text-align: right;  }
+  td.left   { text-align: left;   }
+  td.center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara:nth-child(2) { display: inline; }
+  .footpara { display: block; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  /*]]>*/-->
+</style>
+<link rel="stylesheet" type="text/css" href="css/styles.css"/>
+<link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono|Ubuntu' rel='stylesheet' type='text/css'>
+<script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2013 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+</head>
+<body>
+<div id="content">
+<h1 class="title">Link Wires</h1>
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#sec-1">1. Link Wires</a>
+<ul>
+<li><a href="#sec-1-1">Learn it</a></li>
+<li><a href="#sec-1-2">Build It</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div class=ribbon>
+<a href="https://github.com/stsb11/license">Fork me on GitHub</a>
+</div>
+
+<div id="outline-container-sec-1" class="outline-2 activity">
+<h2 id="sec-1"><span class="section-number-2">1</span> Link Wires</h2>
+<div class="outline-text-2" id="text-1">
+<p>
+We're now well on our way to completing our soldering license. Sometimes when we solder together a PCB, we need to connect other components like LEDs or motors that we don't want on the PCB itself. To connect our circuits to other things, we use wires.
+</p>
+</div>
+<div id="outline-container-sec-1-1" class="outline-3 learn">
+<h3 id="sec-1-1">Learn it</h3>
+<div class="outline-text-3" id="text-1-1">
+<ul class="org-ul">
+<li>There are two sorts of wire that we use: Multi-core (sometimes called multi-strand) and single-core (sometimes called solid-core).
+</li>
+</ul>
+
+<div class="figure">
+<p><img src="./img/wire_types.jpg" alt="wire_types.jpg" />
+</p>
+</div>
+<ul class="org-ul">
+<li>Single-core wire has one single thick strand of wire inside it's plastic insulation. It is cheap to manufacture, but stiffer to work with than multi-core, and can easily break if moved around too much (known as metal fatigue). It is useful for track repairs, and connecting one PCB to another where no movement will occur. It is also easier to put through the holes in a PCB.
+</li>
+<li>Multi-core wire is made up of several fine wires twisted together inside the plastic insulation. Although more expensive than single-core and harder to poke through PCB holes, it is easier to attach to other components (e.g. LEDs), and less likely to snap. 
+</li>
+<li>When working with wire, a side cutter is used to cut it, then a wire-stripper can neatly and accurately remove the insulation. We will use both types of wire, so you have experience with both.
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-sec-1-2" class="outline-3 build">
+<h3 id="sec-1-2">Build It</h3>
+<div class="outline-text-3" id="text-1-2">
+<ul class="org-ul">
+<li>Cut approximately 5cm of single-core wire, and use the wire-stripper to remove about 1cm or insulation from one end. You don't need to use a ruler to do this; just guess.
+</li>
+<li>Using long-nose pliers to grip the stripped wire end, bend a sharp 90 degree bend in the wire. Poke the stripped end through the hole labelled "B", so that the stripped end is sticking out on the solder-side of the PCB.
+</li>
+<li>Next, using your fingernail (or anything with a hard edge on it if you've got none), make a mark in the insulation where the second hole for the single-core repair is (marked "C" on the PCB). You should now have something that looks like step 1 in the photo below.
+</li>
+</ul>
+
+<div class="figure">
+<p><img src="./img/link_wire.jpg" alt="link_wire.jpg" />
+</p>
+</div>
+<ul class="org-ul">
+<li>Now, use the wire stripper <b><b>CAREFULLY</b></b> to strip to the point where you made your mark, as seen in stage 2 of the photo above.
+</li>
+<li>When stripped (it might take a few attempts to get this right), use long-nose pliers again to make another 90 degree bend in the wire, do you've got an "n" shape. The top-right corner of the picture above shows this.
+</li>
+<li>Insert the perfectly trimmed legs into the PCB, ensure the wire is sat flat on the board, bend the legs out 45 degree like before, then solder it in place. Trim with a side-cutter to finish the first link.
+</li>
+<li>You can now repeat this process for multi-core wire, which runs down from point "D". It'll be more difficult, as the individual strands will try and escape - don't be surprised if it takes a few attempts to get this right.
+</li>
+</ul>
+
+<div class="figure">
+<p><img src="./img/links_done.jpg" alt="links_done.jpg" />
+</p>
+</div>
+<ul class="org-ul">
+<li>The finished result should look something like this. My single-core (red) insulation looks slightly tatty; this is because I left the soldering iron on for too long, and it started to melt the insulation!
+</li>
+</ul>
+<p>
+<a href="./index.html">Back to homepage</a>
+</p>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="validation"></p>
+</div>
+</body>
+</html>

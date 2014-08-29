@@ -1,0 +1,110 @@
+#+STARTUP:indent
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+#+HTML_HEAD_EXTRA: <link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono|Ubuntu' rel='stylesheet' type='text/css'>
+#+OPTIONS: f:nil author:nil num:1 creator:nil timestamp:nil 
+#+TITLE: Resistors and PIC Carrier
+#+AUTHOR: Stephen Brown
+
+#+BEGIN_HTML
+<div class=ribbon>
+<a href="https://github.com/stsb11/license">Fork me on GitHub</a>
+</div>
+#+END_HTML
+
+* COMMENT Use as a template
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:
+** Learn It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+
+** Research It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: research
+:END:
+
+** Design It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: design
+:END:
+
+** Build It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: build
+:END:
+
+** Test It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: test
+:END:
+
+** Run It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: run
+:END:
+
+** Document It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: document
+:END:
+
+** Code It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: code
+:END:
+
+** Program It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: program
+:END:
+
+** Try It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: try
+:END:
+
+** Badge It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: badge
+:END:
+
+** Save It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: save
+:END:
+
+* Soldering Resistors
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:
+In the last lesson, you looked at the theory of resistors, and soldered your first component. We'll now be able to add our resistors, and something called a chip carrier.
+** Build It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: build
+:END:
+- Go to the compent racks, and take out 1 each of the resistors you'll be using. The values you need are: 330, 2k2, 470 and 18k.
+- You should now be able to identify which is which by their coloured bands. Start with the 330 Ohm resistor, poking the wire legs through the hole above and below the number 330 on the PCB. Remeber that the component should sit on the top of the board (with no writing on it), and the legs should stick out of the side with the tracks and pads on. Resistors can be soldered in either way round, but it looks more professional if all the gold bands line up, like mine to in the photo below.
+- Make sure the resistor is laying flat against the board, then gently angle the legs out at 45 degrees to stop the component from falling out of the board while it's being soldered.
+- Just like before, put the board in the bulldog clip on the soldering iron stand to hold it steady, solder the two legs and then use a side-cutter to trim them.
+- Repeat this process for the other resistors.
+[[./img/resistors.jpg]]
+- NOTE: It is vital that you don't allow solder to flow across gaps on the PCB. If you study the image above, you'll see red rectangles drawn around the areas where you'll need to be careful about this. 
+- When you're finished, you should have a board that looks like the one in the picture.
+* Chip Carrier
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:
+** Build It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: build
+:END:
+- More advanced projects that you will make require silicon chips to be inserted into them. The chips themselves don't like heat, and will break if a soldering iron is used on them. To get around this, plastic sockets called "chip carriers" are used to avoid the need to heat the chips up.
+- Fetch an 8-pin chip carrier form the component racks, and look at it carefully. There's a notch on one end but not on the other - all chips also have a corresponding notch that is used ot ensure the chip is inserted the right way up.
+- Your chip carrier will go in with the notch facing towards the outside of the board. Put it on the board, then place the board on a cutting mat, balanced on the chip carrier.
+- Solder a corner first, then the opposite corner. Check that your carrier is sitting flat against the board before soldering the other pins. 
+- Take care to avoid solder flowing across the gap near the "@" symbol, and the gap near the "1". 
+[[./img/chip_holder.jpg]]
+
+[[./index.html][Back to homepage]]

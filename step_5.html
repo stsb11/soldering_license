@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<title>Multimeter testing</title>
+<meta  http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta  name="generator" content="Org-mode" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { color: green; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: visible;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  pre.src-sh:before    { content: 'sh'; }
+  pre.src-bash:before  { content: 'sh'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-R:before     { content: 'R'; }
+  pre.src-perl:before  { content: 'Perl'; }
+  pre.src-java:before  { content: 'Java'; }
+  pre.src-sql:before   { content: 'SQL'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.right  { text-align: center;  }
+  th.left   { text-align: center;   }
+  th.center { text-align: center; }
+  td.right  { text-align: right;  }
+  td.left   { text-align: left;   }
+  td.center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara:nth-child(2) { display: inline; }
+  .footpara { display: block; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  /*]]>*/-->
+</style>
+<link rel="stylesheet" type="text/css" href="css/styles.css"/>
+<link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono|Ubuntu' rel='stylesheet' type='text/css'>
+<script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2013 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+</head>
+<body>
+<div id="content">
+<h1 class="title">Multimeter testing</h1>
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#sec-1">1. The multimeter</a></li>
+<li><a href="#sec-2">2. Continuity</a>
+<ul>
+<li><a href="#sec-2-1">About Continuity Testing</a></li>
+<li><a href="#sec-2-2">Test it</a></li>
+</ul>
+</li>
+<li><a href="#sec-3">3. Resistance</a>
+<ul>
+<li><a href="#sec-3-1">About Resistance</a></li>
+<li><a href="#sec-3-2">Try it</a></li>
+<li><a href="#sec-3-3">Test it</a></li>
+</ul>
+</li>
+<li><a href="#sec-4">4. Independent work</a>
+<ul>
+<li><a href="#sec-4-1">Your turn</a></li>
+<li><a href="#sec-4-2">Try it</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div class=ribbon>
+<a href="https://github.com/stsb11/license">Fork me on GitHub</a>
+</div>
+
+<div id="outline-container-sec-1" class="outline-2 activity">
+<h2 id="sec-1"><span class="section-number-2">1</span> The multimeter</h2>
+<div class="outline-text-2" id="text-1">
+<ul class="org-ul">
+<li>As you progress through Systems &amp; Control, you'll encounter problems with circuits. A big part of being an engineer is being able to diagnose problems and repair them. 
+</li>
+<li>There are lots of things a multimeter can do, but in this activity, we'll focus on just two of them.
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-sec-2" class="outline-2 activity">
+<h2 id="sec-2"><span class="section-number-2">2</span> Continuity</h2>
+<div class="outline-text-2" id="text-2">
+</div>
+<div id="outline-container-sec-2-1" class="outline-3 learn">
+<h3 id="sec-2-1">About Continuity Testing</h3>
+<div class="outline-text-3" id="text-2-1">
+<ul class="org-ul">
+<li>Electronic current can only flow along unbroken wires. Even a break in a track the thickness of a hair will stop a circuit from working - sometimes, human eyes simply can't see if there's a problem. This is when the continuity setting on a  multimeter is helpful; it will only give you a reading if there is a continous connection (hence the name) between the two probes.
+</li>
+<li>Every time you pick up a multimeter, the first thing you should do is check if it is working correctly. As they are used all day long by lots of students, people forget to turn them off, the probe wires get damaged, the probes come loose from their sockets and so on. A continuity check from one probe straight to the other will confirm that everything is ok.
+</li>
+<li>If you look carefully, you'll see that the insulation on the probes in the picture below has started to break down, and the wires are hanging slightly. These will break soon, hence the importance of testing!
+</li>
+</ul>
+
+<div class="figure">
+<p><img src="./img/cont.jpg" alt="cont.jpg" />
+</p>
+</div>
+<ul class="org-ul">
+<li><b><b>Step 1:</b></b> Check that the black (known as common) probe is plugged firmly into the socket labelled COM, and the red probe is plugged into the "V&Omega; mA" socket. 
+</li>
+<li><b><b>Step 2:</b></b> Slowly turn the dial on the front of the meter round until the arrow-head is pointing at the continuity symbol (which looks like an arrow-head with a line next to it on most meters). This is shown in the picture above.
+</li>
+<li><b><b>Step 3:</b></b> The meter should now show a single number 1 on its display. This is telling you that the two probes aren't currently directly connected together. 
+</li>
+<li><b><b>Step 4:</b></b> To test the probes are working properly, touch the probes together and wait a moment. The display should change to a tree digit number; most likely 001, 002 or 003. This is telling you that there is a connection between the probes, and that your meter is working.
+</li>
+<li>You are now set up to test continuity. Remember that this won't test resistors and other components - it's only for testing wire runs at the moment. 
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-sec-2-2" class="outline-3 test">
+<h3 id="sec-2-2">Test it</h3>
+<div class="outline-text-3" id="text-2-2">
+<ul class="org-ul">
+<li>You can see how the meter works by touching the probes on the metal part of a steel ruler, the jaws of a set of pliers or any other object made from metal. While it looks daunting, a PCB with no components on it is essentially just strips of metal stuck to pieces of board.
+</li>
+<li>Test your multi-core link wire by touching one probe (it doesn't matter which when testing continuity) on the track next to the letter D, and the other on the track near the letter C (or on the solder point there, if thats easier). As long as the reading changes from 1 to something else, your soldering was sucessful. 
+</li>
+<li>You now need to test the other link wire, and the two track repairs. 
+</li>
+<li><b><b>Extension:</b></b> Can you suggest a way that you could check both wire links and both track repairs all at the same time?
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-sec-3" class="outline-2 activity">
+<h2 id="sec-3"><span class="section-number-2">3</span> Resistance</h2>
+<div class="outline-text-2" id="text-3">
+</div>
+<div id="outline-container-sec-3-1" class="outline-3 learn">
+<h3 id="sec-3-1">About Resistance</h3>
+<div class="outline-text-3" id="text-3-1">
+<ul class="org-ul">
+<li>Resistance is a measure of how much a component reduces the flow of current in a circuit, and is measured on Ohms (&Omega;). 
+</li>
+<li>All components add some amount of resistance to a circuit. Resistors are the most common and easily understood, but motors, lamps and such like also add to the resistance. 
+</li>
+<li>In this exercise, we will test each of the resistors in your circuit, by setting the meter appropriately. We will to the first resistor together.
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-sec-3-2" class="outline-3 try">
+<h3 id="sec-3-2">Try it</h3>
+<div class="outline-text-3" id="text-3-2">
+<ul class="org-ul">
+<li><b><b>Step 1:</b></b> Ensure the probes are in the same sockets as they were for continuity.
+</li>
+<li><b><b>Step 2:</b></b> The section of a multimeter for measuring resistance is indicated with an &Omega; symbol on the meter, like the picture below:
+</li>
+</ul>
+
+<div class="figure">
+<p><img src="./img/resis.jpg" alt="resis.jpg" />
+</p>
+</div>
+<ul class="org-ul">
+<li>Each of the numbers in this section tells you the maximum amount of resistance the meter can detect at each setting. To get the most accurate reading, we choose the next setting up from the value we're testing for.
+</li>
+<li>So for instance, if you wanted to test a 100&Omega; resistor, you'd set the meter to 200.
+</li>
+<li>Or if I had a 1.5 million Ohm (1,500,000 &Omega;) resistor, I'd use the 2000k setting. Just like in science, putting k on the end of a number is shorthand for writing 000. In this case, 2000k is the same as writing 2,000,000.
+</li>
+<li>What setting would I need if I wanted to test a 1k resistor?
+</li>
+<li><b><b>Step 3:</b></b> We're going to test the 18k resistor together, so we'll need to set the meter to 20k.
+</li>
+<li><b><b>Step 4:</b></b> Flip the PCB over to the solder side, and put the probes on the solder blobs either side of the 18k label.
+</li>
+<li><b><b>Step 5:</b></b> While the reading will bounce around a bit, you'll should be able to get a fairly steady reading. If the display stays on 1, then your soldering was unsucessful. On my soldering license, I got a reading of 17.78. Yours will almost certainly be different!
+</li>
+<li>So my 18k resistor actually has a resistance of 17,780&Omega;. Remember that our gold-banded resistors have a tolerance of ±5%, so I'd expect to get between 17,100&Omega; and 18,900&Omega; from this resistor. In my case, the test was passed!
+</li>
+</ul>
+<p>
+(Don't worry too much about the error part, if you're not confident with percentages. You'll cover this in maths lessons!)
+</p>
+<ul class="org-ul">
+<li>If you got no reading at all, one likely explanation is that you've not soldered the resistor in properly.
+</li>
+<li>Another possibility is that you picked up the wrong resistor and soldered that in; check the coloured bands!
+</li>
+<li>One last possibility is that you've accidentally "bridged" the bottom 18k solder pad and the bottom 470r resistor together. There should be a little gap between them!
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-sec-3-3" class="outline-3 test">
+<h3 id="sec-3-3">Test it</h3>
+<div class="outline-text-3" id="text-3-3">
+<ul class="org-ul">
+<li>Now its your turn. Set the multimeter up for each of the remaining resistors, and test each one individually. 
+</li>
+<li><b><b>Extension:</b></b> Can you think of a way to test all the resistors at once? They should add up to 21k ±5% in total. 
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-sec-4" class="outline-2 activity">
+<h2 id="sec-4"><span class="section-number-2">4</span> Independent work</h2>
+<div class="outline-text-2" id="text-4">
+</div>
+<div id="outline-container-sec-4-1" class="outline-3 learn">
+<h3 id="sec-4-1">Your turn</h3>
+<div class="outline-text-3" id="text-4-1">
+<ul class="org-ul">
+<li>You now have the ability to measure resistance and continuity. Let's see if you can apply it to new problems.
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-sec-4-2" class="outline-3 try">
+<h3 id="sec-4-2">Try it</h3>
+<div class="outline-text-3" id="text-4-2">
+<ul class="org-ul">
+<li>Put a small amount of water in a cup, and measure its resistance. You might have to try several of the meter settings to get a reading. 
+</li>
+<li>Measure the resistance of your fingertip, with the probes about 10mm apart.
+</li>
+<li>Measure the resistance on the back of your hand, with the probes about 10mm apart. Don't worry if you can't get a reading&#x2026; The meter can only measure up to 2M Ohms.
+</li>
+<li>Which measurement is lower? Why do you think this is?
+</li>
+<li>The continuity checker can also test that diodes work correctly. Set the meter for continuity, and try putting the probes one way then the other either side of the diode. What happens? Why do you think this is?
+</li>
+<li>There are a series of letters on the solder-side of the PCB from A to F. Before you perform the next test, make a prediction as to what the result will be.
+</li>
+<li>With the correct probe placed on solder-point A, which is the last letter on the PCB that you should be able to get a continuity reading on? Why?
+</li>
+<li>Complete the table at the bottom of the task sheet using your newly acquired skills.
+</li>
+</ul>
+
+<p>
+<a href="./index.html">Return to homepage</a>
+</p>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="validation"></p>
+</div>
+</body>
+</html>
