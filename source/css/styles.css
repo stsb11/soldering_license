@@ -114,6 +114,23 @@ h1 {
   margin-left: auto;
   margin-right: auto;
 }
+/* Activity link colourings */
+/* unvisited link */
+.activity h2 a:link {
+  color: #FFFFFF;
+}
+/* visited link */
+.activity h2 a:visited {
+  color: #FFFFFF;
+}
+/* mouse over link */
+.activity h2 a:hover {
+  color: #DDDDDD;
+}
+/* selected link */
+.activity h2 a:active {
+  color: #BBBBBB;
+}
 .activity h2 {
   font-size: 30px;
   color: #FFF;
