@@ -2,7 +2,7 @@
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="css/styles.css"/>
 #+HTML_HEAD_EXTRA: <link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono|Ubuntu' rel='stylesheet' type='text/css'>
 #+OPTIONS: f:nil author:nil num:1 creator:nil timestamp:nil 
-#+TITLE: Track repairs
+#+TITLE: Gluing Magnet
 #+AUTHOR: Stephen Brown
 
 #+BEGIN_HTML
@@ -75,13 +75,13 @@
 :HTML_CONTAINER_CLASS: save
 :END:
 
-* Track Repairs
+* Hot glue guns
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END:
 We're nearly there now, and you'll soon have the skills you need for nearly all the soldering work you'll perform up to A level! Sometimes, when we solder together a PCB, the tracks can lift off due to overheating, or through imperfections in the way the board was manufactured. When this happens, rather than make a whole new PCB and start from scratch, we can perform track repairs.
 
-** Your first repair
+** Using hot glue gun
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: learn
 :END:
@@ -99,6 +99,8 @@ We're nearly there now, and you'll soon have the skills you need for nearly all 
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: build
 :END:
+[[./img/sanding_board.jpg]]
+- Collect a sanding board so that you can give your fridge magnet a good finish, rounding off the corners as seen below.
 [[./img/done.jpg]]
 - Your soldering license is now complete, and ready for multimeter testing to confirm everything works properly. If you're going to put it on your keys, you can use a sheet of glasspaper to gently round the corners and edges off your PCB to stop it from ripping your pockets up. Well done!
 

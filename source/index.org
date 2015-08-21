@@ -29,7 +29,7 @@
 :HTML_CONTAINER_CLASS: activity
 :END:
 
-* [[file:step_4.html][Lesson 4 - Track Repairs]]
+* [[file:step_4.html][Lesson 4 - Gluing Magnet]]
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END:

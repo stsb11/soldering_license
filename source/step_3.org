@@ -95,13 +95,13 @@ We're now well on our way to completing our soldering license. Sometimes when we
 :END:
 
 - Cut approximately 5cm of single-core wire, and use the wire-stripper to remove about 1cm or insulation from one end. You don't need to use a ruler to do this; just guess.
-- Using long-nose pliers to grip the stripped wire end, bend a sharp 90 degree bend in the wire. Poke the stripped end through the hole labelled "B", so that the stripped end is sticking out on the solder-side of the PCB.
-- Next, using your fingernail (or anything with a hard edge on it if you've got none), make a mark in the insulation where the second hole for the single-core repair is (marked "C" on the PCB). You should now have something that looks like step 1 in the photo below.
+- Using long-nose pliers to grip the stripped wire end, bend a sharp 90 degree bend in the wire. Poke the stripped end through the hole next to the 330 resistor, so that the stripped end is sticking out on the solder-side of the PCB.
+- Next, using your fingernail (or anything with a hard edge on it if you've got none), make a mark in the insulation where the second hole for the single-core repair is (next to the diode, see below). You should now have something that looks like the photo below.
 [[./img/link_wire.jpg]]
-- Now, use the wire stripper **CAREFULLY** to strip to the point where you made your mark, as seen in stage 2 of the photo above.
-- When stripped (it might take a few attempts to get this right), use long-nose pliers again to make another 90 degree bend in the wire, do you've got an "n" shape. The top-right corner of the picture above shows this.
+- Now, use the wire stripper **CAREFULLY** to strip to the point where you made your mark, as seen in the photo above.
+- When stripped (it might take a few attempts to get this right), use long-nose pliers again to make another 90 degree bend in the wire, do you've got an "n" shape.
 - Insert the perfectly trimmed legs into the PCB, ensure the wire is sat flat on the board, bend the legs out 45 degree like before, then solder it in place. Trim with a side-cutter to finish the first link.
-- You can now repeat this process for multi-core wire, which runs down from point "D". It'll be more difficult, as the individual strands will try and escape - don't be surprised if it takes a few attempts to get this right.
+- You can now repeat this process for multi-core wire, which runs down below the red wire (see picture below). It'll be more difficult, as the individual strands will try and escape - don't be surprised if it takes a few attempts to get this right.
 [[./img/links_done.jpg]]
 - The finished result should look something like this. My single-core (red) insulation looks slightly tatty; this is because I left the soldering iron on for too long, and it started to melt the insulation!
 [[./index.html][Back to homepage]]

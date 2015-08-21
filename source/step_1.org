@@ -113,7 +113,7 @@ In a car, a circuit is needed to ensure that the airbags only deploy when there 
 - Around three quarters of the problems students have with their circuits are down to poor soldering, or inserting components incorrectly. 
 - This project will help you develop these skills, and at the end, you'll have a PCB which you can use to show how good you are at soldering neatly.
 - Before you begin, pick up a copy of the task sheet from [[./resources/task_sheet.docx][**here**]], and save it in your H: drive, in your S&C folder. You'll need to regularly update this as you progress through the project.
-- Once you've gotten your soldering license PCB from your teacher, the first thing to do is to drill a 3mm hole in the bottom-left corner pad, using a pillar drill...
+- Once you've collected your soldering license PCB from your teacher, the first thing to do is make sure the track are shiny and clean. Use some steel wool to clean it if necessary.
 [[./img/3mm_hole.jpg]]
 - Then, using a 1mm drill-bit in one of the precision drills, drill out all the other pads on the PCB. Take care to drill through smoothly, and try to get as close to the centre of all the pads as possible. This will make things much easier for you when you start soldering if you do this well.
 [[./img/1mm_holes.jpg]]

@@ -221,11 +221,11 @@ for the JavaScript code in this tag.
 <ul class="org-ul">
 <li>You can see how the meter works by touching the probes on the metal part of a steel ruler, the jaws of a set of pliers or any other object made from metal. While it looks daunting, a PCB with no components on it is essentially just strips of metal stuck to pieces of board.
 </li>
-<li>Test your multi-core link wire by touching one probe (it doesn't matter which when testing continuity) on the track next to the letter D, and the other on the track near the letter C (or on the solder point there, if thats easier). As long as the reading changes from 1 to something else, your soldering was sucessful. 
+<li>Test your multi-core link wire by touching one probe (it doesn't matter which when testing continuity). As long as the reading changes from 1 to something else, your soldering was sucessful. 
 </li>
 <li>You now need to test the other link wire, and the two track repairs. 
 </li>
-<li><b><b>Extension:</b></b> Can you suggest a way that you could check both wire links and both track repairs all at the same time?
+<li><b><b>Extension:</b></b> Can you suggest a way that you could check both wire links at the same time?
 </li>
 </ul>
 </div>
@@ -271,13 +271,13 @@ for the JavaScript code in this tag.
 </li>
 <li>What setting would I need if I wanted to test a 1k resistor?
 </li>
-<li><b><b>Step 3:</b></b> We're going to test the 18k resistor together, so we'll need to set the meter to 20k.
+<li><b><b>Step 3:</b></b> We're going to test the 330 resistor together, so we'll need to set the meter to 2000.
 </li>
-<li><b><b>Step 4:</b></b> Flip the PCB over to the solder side, and put the probes on the solder blobs either side of the 18k label.
+<li><b><b>Step 4:</b></b> Flip the PCB over to the solder side, and put the probes on the solder blobs either side of the 330 label.
 </li>
-<li><b><b>Step 5:</b></b> While the reading will bounce around a bit, you'll should be able to get a fairly steady reading. If the display stays on 1, then your soldering was unsucessful. On my soldering license, I got a reading of 17.78. Yours will almost certainly be different!
+<li><b><b>Step 5:</b></b> While the reading will bounce around a bit, you'll should be able to get a fairly steady reading. If the display stays on 1, then your soldering was unsucessful. On my soldering license, I got a reading of 326. Yours will almost certainly be different!
 </li>
-<li>So my 18k resistor actually has a resistance of 17,780&Omega;. Remember that our gold-banded resistors have a tolerance of ±5%, so I'd expect to get between 17,100&Omega; and 18,900&Omega; from this resistor. In my case, the test was passed!
+<li>So my 330 resistor actually has a resistance of 326&Omega;. Remember that our gold-banded resistors have a tolerance of ±5%, so I'd expect to get between 313.5&Omega; and 346.5&Omega; from this resistor. In my case, the test was passed!
 </li>
 </ul>
 <p>
@@ -288,8 +288,6 @@ for the JavaScript code in this tag.
 </li>
 <li>Another possibility is that you picked up the wrong resistor and soldered that in; check the coloured bands!
 </li>
-<li>One last possibility is that you've accidentally "bridged" the bottom 18k solder pad and the bottom 470r resistor together. There should be a little gap between them!
-</li>
 </ul>
 </div>
 </div>
@@ -299,7 +297,7 @@ for the JavaScript code in this tag.
 <ul class="org-ul">
 <li>Now its your turn. Set the multimeter up for each of the remaining resistors, and test each one individually. 
 </li>
-<li><b><b>Extension:</b></b> Can you think of a way to test all the resistors at once? They should add up to 21k ±5% in total. 
+<li><b><b>Extension:</b></b> Can you think of a way to test all the resistors in each letter at once (one resistor in the 'B' will not be able to be tested at once)? 
 </li>
 </ul>
 </div>
@@ -332,8 +330,6 @@ for the JavaScript code in this tag.
 </li>
 <li>The continuity checker can also test that diodes work correctly. Set the meter for continuity, and try putting the probes one way then the other either side of the diode. What happens? Why do you think this is?
 </li>
-<li>There are a series of letters on the solder-side of the PCB from A to F. Before you perform the next test, make a prediction as to what the result will be.
-</li>
 <li>With the correct probe placed on solder-point A, which is the last letter on the PCB that you should be able to get a continuity reading on? Why?
 </li>
 <li>Complete the table at the bottom of the task sheet using your newly acquired skills.
@@ -348,7 +344,7 @@ for the JavaScript code in this tag.
 </div>
 </div>
 <div id="postamble" class="status">
-<p class="validation"></p>
+<p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
 </body>
 </html>
