@@ -99,6 +99,7 @@ We're nearly there now, and you'll soon have the skills you need for nearly all 
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: build
 :END:
+- Your PCB looks good, but has sharp edges; it'd be nice to round these off.
 [[./img/sanding_board.jpg]]
 - Collect a sanding board so that you can give your fridge magnet a good finish, rounding off the corners as seen below.
 [[./img/done.jpg]]
