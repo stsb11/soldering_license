@@ -16,24 +16,28 @@
 <a href="https://github.com/stsb11/soldering_license">Fork me on GitHub</a>
 </div>
 #+END_HTML
-* [[file:step_1.html][Lesson 1 - Drilling and Soldering Technique]]
+* [[file:step_1.html][Lesson 1 - Health and Safety]]
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END:
-* [[file:step_2.html][Lesson 2 - Soldering Resistors and Chip Carrier]]
+* [[file:step_2.html][Lesson 2 - Drilling and Soldering Technique]]
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END:
-* [[./step_3.org][Lesson 3 - Link Wires]]
+* [[file:step_3.html][Lesson 3 - Soldering Resistors and Chip Carrier]]
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:
+* [[./step_4.org][Lesson 4 - Link Wires]]
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END:
 
-* [[file:step_4.html][Lesson 4 - Gluing Magnet]]
+* [[file:step_5.html][Lesson 5 - Gluing Magnet]]
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END:
-* [[./step_5.html][Lesson 5 - The Multimeter]]
+* [[./step_6.html][Lesson 6 - The Multimeter]]
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END:

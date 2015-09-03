@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<title>Multimeter testing</title>
+<title>Gluing Magnet</title>
 <meta  http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta  name="generator" content="Org-mode" />
 <style type="text/css">
@@ -137,29 +137,19 @@ for the JavaScript code in this tag.
 </head>
 <body>
 <div id="content">
-<h1 class="title">Multimeter testing</h1>
+<h1 class="title">Gluing Magnet</h1>
 <div id="table-of-contents">
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#sec-1">1. The multimeter</a></li>
-<li><a href="#sec-2">2. Continuity</a>
+<li><a href="#sec-1">1. Hot glue guns</a>
 <ul>
-<li><a href="#sec-2-1">About Continuity Testing</a></li>
-<li><a href="#sec-2-2">Test it</a></li>
+<li><a href="#sec-1-1">Using hot glue gun</a></li>
 </ul>
 </li>
-<li><a href="#sec-3">3. Resistance</a>
+<li><a href="#sec-2">2. Finishing Touches</a>
 <ul>
-<li><a href="#sec-3-1">About Resistance</a></li>
-<li><a href="#sec-3-2">Try it</a></li>
-<li><a href="#sec-3-3">Test it</a></li>
-</ul>
-</li>
-<li><a href="#sec-4">4. Independent work</a>
-<ul>
-<li><a href="#sec-4-1">Your turn</a></li>
-<li><a href="#sec-4-2">Try it</a></li>
+<li><a href="#sec-2-1">Sanding edges and corners</a></li>
 </ul>
 </li>
 </ul>
@@ -170,181 +160,77 @@ for the JavaScript code in this tag.
 </div>
 
 <div id="outline-container-sec-1" class="outline-2 activity">
-<h2 id="sec-1"><span class="section-number-2">1</span> The multimeter</h2>
+<h2 id="sec-1"><span class="section-number-2">1</span> Hot glue guns</h2>
 <div class="outline-text-2" id="text-1">
+<p>
+We're nearly there now, and you'll soon have the skills you need for nearly all the soldering work you'll perform up to A level! Sometimes, when we solder together a PCB, the tracks can lift off due to overheating, or through imperfections in the way the board was manufactured. When this happens, rather than make a whole new PCB and start from scratch, we can perform track repairs.
+</p>
+</div>
+
+<div id="outline-container-sec-1-1" class="outline-3 learn">
+<h3 id="sec-1-1">Using hot glue gun</h3>
+<div class="outline-text-3" id="text-1-1">
 <ul class="org-ul">
-<li>As you progress through Systems &amp; Control, you'll encounter problems with circuits. A big part of being an engineer is being able to diagnose problems and repair them. 
+<li>To perform a track repair, a short piece of wire (single-core, or a resistor leg) is soldered either side of where there is a break in the PCB track. The areas you need to repair have "Fix" written on them.
 </li>
-<li>There are lots of things a multimeter can do, but in this activity, we'll focus on just two of them.
+</ul>
+
+<div class="figure">
+<p><img src="./img/track_repairs.jpg" alt="track_repairs.jpg" />
+</p>
+</div>
+<ul class="org-ul">
+<li>Step 1: Start by taking a resistor (any value you like), and cutting the leg off it, as shown in the picture above. You could also cut the other leg off at this point too for your second repair. Don't lose it, though!
+</li>
+<li>Step 2: Use a side cutter to shorten the resistor leg, so that it sits about 2mm either side of the gap you're going to repair. Now, using scissors, cut a thin piece of masking tape, and use this to stick the wire over the gap and to hold it in place on the PCB. This is very fiddly, so it might take a few attempts to get it right. Just make sure its sitting nice and flat on the PCB.
+</li>
+<li>Step 3: Carefully put the soldering iron onto the PCB, ensuring that you heat up both the leg and the track. After 3s, apply a small amount of solder, which should flow neatly onto the area. Remove the soldering iron slowly, then after a few seconds check that the wire has bonded to the track. Repeat the process for the other end of the repair.
+</li>
+<li>Step 4: Remove the tape, and gently check that both sides are bonded to the board. You can now repeat the process for the other repair. 
 </li>
 </ul>
 </div>
 </div>
-
+</div>
 <div id="outline-container-sec-2" class="outline-2 activity">
-<h2 id="sec-2"><span class="section-number-2">2</span> Continuity</h2>
+<h2 id="sec-2"><span class="section-number-2">2</span> Finishing Touches</h2>
 <div class="outline-text-2" id="text-2">
 </div>
-<div id="outline-container-sec-2-1" class="outline-3 learn">
-<h3 id="sec-2-1">About Continuity Testing</h3>
+<div id="outline-container-sec-2-1" class="outline-3 build">
+<h3 id="sec-2-1">Sanding edges and corners</h3>
 <div class="outline-text-3" id="text-2-1">
 <ul class="org-ul">
-<li>Electronic current can only flow along unbroken wires. Even a break in a track the thickness of a hair will stop a circuit from working - sometimes, human eyes simply can't see if there's a problem. This is when the continuity setting on a  multimeter is helpful; it will only give you a reading if there is a continous connection (hence the name) between the two probes.
-</li>
-<li>Every time you pick up a multimeter, the first thing you should do is check if it is working correctly. As they are used all day long by lots of students, people forget to turn them off, the probe wires get damaged, the probes come loose from their sockets and so on. A continuity check from one probe straight to the other will confirm that everything is ok.
-</li>
-<li>If you look carefully, you'll see that the insulation on the probes in the picture below has started to break down, and the wires are hanging slightly. These will break soon, hence the importance of testing!
+<li>Your PCB looks good, but has sharp edges; it'd be nice to round these off.
 </li>
 </ul>
 
 <div class="figure">
-<p><img src="./img/cont.jpg" alt="cont.jpg" />
+<p><img src="./img/sanding_board.jpg" alt="sanding_board.jpg" />
 </p>
 </div>
 <ul class="org-ul">
-<li><b><b>Step 1:</b></b> Check that the black (known as common) probe is plugged firmly into the socket labelled COM, and the red probe is plugged into the "V&Omega; mA" socket. 
-</li>
-<li><b><b>Step 2:</b></b> Slowly turn the dial on the front of the meter round until the arrow-head is pointing at the continuity symbol (which looks like an arrow-head with a line next to it on most meters). This is shown in the picture above.
-</li>
-<li><b><b>Step 3:</b></b> The meter should now show a single number 1 on its display. This is telling you that the two probes aren't currently directly connected together. 
-</li>
-<li><b><b>Step 4:</b></b> To test the probes are working properly, touch the probes together and wait a moment. The display should change to a tree digit number; most likely 001, 002 or 003. This is telling you that there is a connection between the probes, and that your meter is working.
-</li>
-<li>You are now set up to test continuity. Remember that this won't test resistors and other components - it's only for testing wire runs at the moment. 
-</li>
-</ul>
-</div>
-</div>
-<div id="outline-container-sec-2-2" class="outline-3 test">
-<h3 id="sec-2-2">Test it</h3>
-<div class="outline-text-3" id="text-2-2">
-<ul class="org-ul">
-<li>You can see how the meter works by touching the probes on the metal part of a steel ruler, the jaws of a set of pliers or any other object made from metal. While it looks daunting, a PCB with no components on it is essentially just strips of metal stuck to pieces of board.
-</li>
-<li>Test your multi-core link wire by touching one probe (it doesn't matter which when testing continuity). As long as the reading changes from 1 to something else, your soldering was sucessful. 
-</li>
-<li>You now need to test the other link wire, and the two track repairs. 
-</li>
-<li><b><b>Extension:</b></b> Can you suggest a way that you could check both wire links at the same time?
-</li>
-</ul>
-</div>
-</div>
-</div>
-<div id="outline-container-sec-3" class="outline-2 activity">
-<h2 id="sec-3"><span class="section-number-2">3</span> Resistance</h2>
-<div class="outline-text-2" id="text-3">
-</div>
-<div id="outline-container-sec-3-1" class="outline-3 learn">
-<h3 id="sec-3-1">About Resistance</h3>
-<div class="outline-text-3" id="text-3-1">
-<ul class="org-ul">
-<li>Resistance is a measure of how much a component reduces the flow of current in a circuit, and is measured on Ohms (&Omega;). 
-</li>
-<li>All components add some amount of resistance to a circuit. Resistors are the most common and easily understood, but motors, lamps and such like also add to the resistance. 
-</li>
-<li>In this exercise, we will test each of the resistors in your circuit, by setting the meter appropriately. We will to the first resistor together.
-</li>
-</ul>
-</div>
-</div>
-<div id="outline-container-sec-3-2" class="outline-3 try">
-<h3 id="sec-3-2">Try it</h3>
-<div class="outline-text-3" id="text-3-2">
-<ul class="org-ul">
-<li><b><b>Step 1:</b></b> Ensure the probes are in the same sockets as they were for continuity.
-</li>
-<li><b><b>Step 2:</b></b> The section of a multimeter for measuring resistance is indicated with an &Omega; symbol on the meter, like the picture below:
+<li>Collect a sanding board so that you can give your fridge magnet a good finish, rounding off the corners as seen below.
 </li>
 </ul>
 
 <div class="figure">
-<p><img src="./img/resis.jpg" alt="resis.jpg" />
+<p><img src="./img/done.jpg" alt="done.jpg" />
 </p>
 </div>
 <ul class="org-ul">
-<li>Each of the numbers in this section tells you the maximum amount of resistance the meter can detect at each setting. To get the most accurate reading, we choose the next setting up from the value we're testing for.
-</li>
-<li>So for instance, if you wanted to test a 100&Omega; resistor, you'd set the meter to 200.
-</li>
-<li>Or if I had a 1.5 million Ohm (1,500,000 &Omega;) resistor, I'd use the 2000k setting. Just like in science, putting k on the end of a number is shorthand for writing 000. In this case, 2000k is the same as writing 2,000,000.
-</li>
-<li>What setting would I need if I wanted to test a 1k resistor?
-</li>
-<li><b><b>Step 3:</b></b> We're going to test the 330 resistor together, so we'll need to set the meter to 2000.
-</li>
-<li><b><b>Step 4:</b></b> Flip the PCB over to the solder side, and put the probes on the solder blobs either side of the 330 label.
-</li>
-<li><b><b>Step 5:</b></b> While the reading will bounce around a bit, you'll should be able to get a fairly steady reading. If the display stays on 1, then your soldering was unsucessful. On my soldering license, I got a reading of 326. Yours will almost certainly be different!
-</li>
-<li>So my 330 resistor actually has a resistance of 326&Omega;. Remember that our gold-banded resistors have a tolerance of ±5%, so I'd expect to get between 313.5&Omega; and 346.5&Omega; from this resistor. In my case, the test was passed!
-</li>
-</ul>
-<p>
-(Don't worry too much about the error part, if you're not confident with percentages. You'll cover this in maths lessons!)
-</p>
-<ul class="org-ul">
-<li>If you got no reading at all, one likely explanation is that you've not soldered the resistor in properly.
-</li>
-<li>Another possibility is that you picked up the wrong resistor and soldered that in; check the coloured bands!
-</li>
-</ul>
-</div>
-</div>
-<div id="outline-container-sec-3-3" class="outline-3 test">
-<h3 id="sec-3-3">Test it</h3>
-<div class="outline-text-3" id="text-3-3">
-<ul class="org-ul">
-<li>Now its your turn. Set the multimeter up for each of the remaining resistors, and test each one individually. 
-</li>
-<li><b><b>Extension:</b></b> Can you think of a way to test all the resistors in each letter at once (one resistor in the 'B' will not be able to be tested at once)? 
-</li>
-</ul>
-</div>
-</div>
-</div>
-<div id="outline-container-sec-4" class="outline-2 activity">
-<h2 id="sec-4"><span class="section-number-2">4</span> Independent work</h2>
-<div class="outline-text-2" id="text-4">
-</div>
-<div id="outline-container-sec-4-1" class="outline-3 learn">
-<h3 id="sec-4-1">Your turn</h3>
-<div class="outline-text-3" id="text-4-1">
-<ul class="org-ul">
-<li>You now have the ability to measure resistance and continuity. Let's see if you can apply it to new problems.
-</li>
-</ul>
-</div>
-</div>
-<div id="outline-container-sec-4-2" class="outline-3 try">
-<h3 id="sec-4-2">Try it</h3>
-<div class="outline-text-3" id="text-4-2">
-<ul class="org-ul">
-<li>Put a small amount of water in a cup, and measure its resistance. You might have to try several of the meter settings to get a reading. 
-</li>
-<li>Measure the resistance of your fingertip, with the probes about 10mm apart.
-</li>
-<li>Measure the resistance on the back of your hand, with the probes about 10mm apart. Don't worry if you can't get a reading&#x2026; The meter can only measure up to 2M Ohms.
-</li>
-<li>Which measurement is lower? Why do you think this is?
-</li>
-<li>The continuity checker can also test that diodes work correctly. Set the meter for continuity, and try putting the probes one way then the other either side of the diode. What happens? Why do you think this is?
-</li>
-<li>With the correct probe placed on solder-point A, which is the last letter on the PCB that you should be able to get a continuity reading on? Why?
-</li>
-<li>Complete the table at the bottom of the task sheet using your newly acquired skills.
+<li>Your soldering license is now complete, and ready for multimeter testing to confirm everything works properly. If you're going to put it on your keys, you can use a sheet of glasspaper to gently round the corners and edges off your PCB to stop it from ripping your pockets up. Well done!
 </li>
 </ul>
 
 <p>
-<a href="./index.html">Return to homepage</a>
+<a href="./index.html">Back to homepage</a>
 </p>
 </div>
 </div>
 </div>
 </div>
 <div id="postamble" class="status">
-<p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
+<p class="validation"></p>
 </div>
 </body>
 </html>

@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<title>Link Wires</title>
+<title>Resistors and PIC Carrier</title>
 <meta  http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta  name="generator" content="Org-mode" />
 <style type="text/css">
@@ -137,15 +137,19 @@ for the JavaScript code in this tag.
 </head>
 <body>
 <div id="content">
-<h1 class="title">Link Wires</h1>
+<h1 class="title">Resistors and PIC Carrier</h1>
 <div id="table-of-contents">
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#sec-1">1. Link Wires</a>
+<li><a href="#sec-1">1. Soldering Resistors</a>
 <ul>
-<li><a href="#sec-1-1">Learn it</a></li>
-<li><a href="#sec-1-2">Build It</a></li>
+<li><a href="#sec-1-1">Build It</a></li>
+</ul>
+</li>
+<li><a href="#sec-2">2. Chip Carrier</a>
+<ul>
+<li><a href="#sec-2-1">Build It</a></li>
 </ul>
 </li>
 </ul>
@@ -156,70 +160,64 @@ for the JavaScript code in this tag.
 </div>
 
 <div id="outline-container-sec-1" class="outline-2 activity">
-<h2 id="sec-1"><span class="section-number-2">1</span> Link Wires</h2>
+<h2 id="sec-1"><span class="section-number-2">1</span> Soldering Resistors</h2>
 <div class="outline-text-2" id="text-1">
 <p>
-We're now well on our way to completing our soldering license. Sometimes when we solder together a PCB, we need to connect other components like LEDs or motors that we don't want on the PCB itself. To connect our circuits to other things, we use wires.
+In the last lesson, you looked at the theory of resistors, and soldered your first component. We'll now be able to add our resistors, and something called a chip carrier.
 </p>
 </div>
-<div id="outline-container-sec-1-1" class="outline-3 learn">
-<h3 id="sec-1-1">Learn it</h3>
+<div id="outline-container-sec-1-1" class="outline-3 build">
+<h3 id="sec-1-1">Build It</h3>
 <div class="outline-text-3" id="text-1-1">
 <ul class="org-ul">
-<li>There are two sorts of wire that we use: Multi-core (sometimes called multi-strand) and single-core (sometimes called solid-core).
+<li>Go to the compent racks, and take out the following resistors, you'll be using. The values you need are: 5 X 330, 5 X 1k, 6 X 22k.
+</li>
+<li>You should now be able to identify which is which by their coloured bands. Start with the 330 Ohm resistor, poking the wire legs through the hole above and below the number 330 on the PCB. Remember that the component should sit on the top of the board (with no writing on it), and the legs should stick out of the side with the tracks and pads on. Resistors can be soldered in either way round, but it looks more professional if all the gold bands line up, like mine to in the photo below.
+</li>
+<li>Make sure the resistor is laying flat against the board, then gently angle the legs out at 45 degrees to stop the component from falling out of the board while it's being soldered.
+</li>
+<li>Just like before, put the board in the bulldog clip on the soldering iron stand to hold it steady, solder the two legs and then use a side-cutter to trim them.
+</li>
+<li>Repeat this process for the other resistors.
 </li>
 </ul>
 
 <div class="figure">
-<p><img src="./img/wire_types.jpg" alt="wire_types.jpg" />
+<p><img src="./img/resistors.jpg" alt="resistors.jpg" />
 </p>
 </div>
 <ul class="org-ul">
-<li>Single-core wire has one single thick strand of wire inside it's plastic insulation. It is cheap to manufacture, but stiffer to work with than multi-core, and can easily break if moved around too much (known as metal fatigue). It is useful for track repairs, and connecting one PCB to another where no movement will occur. It is also easier to put through the holes in a PCB.
+<li>NOTE: It is vital that you don't allow solder to flow across gaps on the PCB. If you study the image above, you'll see red rectangles drawn around the areas where you'll need to be careful about this. 
 </li>
-<li>Multi-core wire is made up of several fine wires twisted together inside the plastic insulation. Although more expensive than single-core and harder to poke through PCB holes, it is easier to attach to other components (e.g. LEDs), and less likely to snap. 
-</li>
-<li>When working with wire, a side cutter is used to cut it, then a wire-stripper can neatly and accurately remove the insulation. We will use both types of wire, so you have experience with both.
+<li>When you're finished, you should have a board that looks like the one in the picture.
 </li>
 </ul>
 </div>
 </div>
-<div id="outline-container-sec-1-2" class="outline-3 build">
-<h3 id="sec-1-2">Build It</h3>
-<div class="outline-text-3" id="text-1-2">
-
-<ul class="org-ul">
-<li>Cut approximately 5cm of single-core wire, and use the wire-stripper to remove about 1cm or insulation from one end. You don't need to use a ruler to do this; just guess.
-</li>
-<li>Using long-nose pliers to grip the stripped wire end, bend a sharp 90 degree bend in the wire. Poke the stripped end through the hole next to the 330 resistor, so that the stripped end is sticking out on the solder-side of the PCB.
-</li>
-<li>Next, using your fingernail (or anything with a hard edge on it if you've got none), make a mark in the insulation where the second hole for the single-core repair is (next to the diode, see below). You should now have something that looks like the photo below.
-</li>
-</ul>
-
-<div class="figure">
-<p><img src="./img/link_wire.jpg" alt="link_wire.jpg" />
-</p>
 </div>
+<div id="outline-container-sec-2" class="outline-2 activity">
+<h2 id="sec-2"><span class="section-number-2">2</span> Chip Carrier</h2>
+<div class="outline-text-2" id="text-2">
+</div>
+<div id="outline-container-sec-2-1" class="outline-3 build">
+<h3 id="sec-2-1">Build It</h3>
+<div class="outline-text-3" id="text-2-1">
 <ul class="org-ul">
-<li>Now, use the wire stripper <b><b>CAREFULLY</b></b> to strip to the point where you made your mark, as seen in the photo above.
+<li>More advanced projects that you will make require silicon chips to be inserted into them. The chips themselves don't like heat, and will break if a soldering iron is used on them. To get around this, plastic sockets called "chip carriers" are used to avoid the need to heat the chips up.
 </li>
-<li>When stripped (it might take a few attempts to get this right), use long-nose pliers again to make another 90 degree bend in the wire, do you've got an "n" shape.
+<li>Fetch an 8-pin chip carrier form the component racks, and look at it carefully. There's a notch on one end but not on the other - all chips also have a corresponding notch that is used ot ensure the chip is inserted the right way up.
 </li>
-<li>Insert the perfectly trimmed legs into the PCB, ensure the wire is sat flat on the board, bend the legs out 45 degree like before, then solder it in place. Trim with a side-cutter to finish the first link.
+<li>Your chip carrier will go in with the notch facing towards the 22k resistors on the board. Put it on the board, then place the board on a cutting mat, balanced on the chip carrier.
 </li>
-<li>You can now repeat this process for multi-core wire, which runs down below the red wire (see picture below). It'll be more difficult, as the individual strands will try and escape - don't be surprised if it takes a few attempts to get this right.
+<li>Solder a corner first, then the opposite corner. Check that your carrier is sitting flat against the board before soldering the other pins.  
 </li>
 </ul>
 
 <div class="figure">
-<p><img src="./img/links_done.jpg" alt="links_done.jpg" />
+<p><img src="./img/chip_holder.jpg" alt="chip_holder.jpg" />
 </p>
 </div>
-<ul class="org-ul">
-<li>The finished result should look something like this. My single-core (red) insulation looks slightly tatty; this is because I left the soldering iron on for too long, and it started to melt the insulation!
-</li>
-</ul>
+
 <p>
 <a href="./index.html">Back to homepage</a>
 </p>
