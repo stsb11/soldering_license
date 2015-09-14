@@ -161,13 +161,6 @@
 - Which measurement is lower? Why do you think this is?
 - The continuity checker can also test that diodes work correctly. Set the meter for continuity, and try putting the probes one way then the other either side of the diode. What happens? Why do you think this is?
 - With the correct probe placed on solder-point A, which is the last letter on the PCB that you should be able to get a continuity reading on? Why?
-
-** Badge it
-:PROPERTIES:
-:HTML_CONTAINER_CLASS: badge
-:END:
-- Download [[./resources/multi.docx][this]] file (save it to your Systems and Control project folder), and open it.
-- Using a multimeter, complete the table.
-- Upload your work for marking when finished to BourneToLearn.com
+- Complete the table at the bottom of the task sheet using your newly acquired skills.
 
 [[./index.html][Return to homepage]]

@@ -2,7 +2,7 @@
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="css/styles.css"/>
 #+HTML_HEAD_EXTRA: <link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono|Ubuntu' rel='stylesheet' type='text/css'>
 #+OPTIONS: f:nil author:nil num:1 creator:nil timestamp:nil 
-#+TITLE: Link Wires
+#+TITLE: Gluing Magnet
 #+AUTHOR: Stephen Brown
 
 #+BEGIN_HTML
@@ -75,33 +75,33 @@
 :HTML_CONTAINER_CLASS: save
 :END:
 
-* Link Wires
+* Hot glue guns
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END:
-We're now well on our way to completing our soldering license. Sometimes when we solder together a PCB, we need to connect other components like LEDs or motors that we don't want on the PCB itself. To connect our circuits to other things, we use wires.
-** Learn it
+We're nearly there now, and you'll soon have the skills you need for nearly all the soldering work you'll perform up to A level! Sometimes, when we solder together a PCB, the tracks can lift off due to overheating, or through imperfections in the way the board was manufactured. When this happens, rather than make a whole new PCB and start from scratch, we can perform track repairs.
+
+** Using hot glue gun
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: learn
 :END:
-- There are two sorts of wire that we use: Multi-core (sometimes called multi-strand) and single-core (sometimes called solid-core).
-[[./img/wire_types.jpg]]
-- Single-core wire has one single thick strand of wire inside it's plastic insulation. It is cheap to manufacture, but stiffer to work with than multi-core, and can easily break if moved around too much (known as metal fatigue). It is useful for track repairs, and connecting one PCB to another where no movement will occur. It is also easier to put through the holes in a PCB.
-- Multi-core wire is made up of several fine wires twisted together inside the plastic insulation. Although more expensive than single-core and harder to poke through PCB holes, it is easier to attach to other components (e.g. LEDs), and less likely to snap. 
-- When working with wire, a side cutter is used to cut it, then a wire-stripper can neatly and accurately remove the insulation. We will use both types of wire, so you have experience with both.
-** Build It
+- To perform a track repair, a short piece of wire (single-core, or a resistor leg) is soldered either side of where there is a break in the PCB track. The areas you need to repair have "Fix" written on them.
+[[./img/track_repairs.jpg]]
+- Step 1: Start by taking a resistor (any value you like), and cutting the leg off it, as shown in the picture above. You could also cut the other leg off at this point too for your second repair. Don't lose it, though!
+- Step 2: Use a side cutter to shorten the resistor leg, so that it sits about 2mm either side of the gap you're going to repair. Now, using scissors, cut a thin piece of masking tape, and use this to stick the wire over the gap and to hold it in place on the PCB. This is very fiddly, so it might take a few attempts to get it right. Just make sure its sitting nice and flat on the PCB.
+- Step 3: Carefully put the soldering iron onto the PCB, ensuring that you heat up both the leg and the track. After 3s, apply a small amount of solder, which should flow neatly onto the area. Remove the soldering iron slowly, then after a few seconds check that the wire has bonded to the track. Repeat the process for the other end of the repair.
+- Step 4: Remove the tape, and gently check that both sides are bonded to the board. You can now repeat the process for the other repair. 
+* Finishing Touches
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:
+** Sanding edges and corners
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: build
 :END:
+[[./img/sanding_board.jpg]]
+- Collect a sanding board so that you can give your fridge magnet a good finish, rounding off the corners as seen below.
+[[./img/done.jpg]]
+- Your soldering license is now complete, and ready for multimeter testing to confirm everything works properly. If you're going to put it on your keys, you can use a sheet of glasspaper to gently round the corners and edges off your PCB to stop it from ripping your pockets up. Well done!
 
-- Cut approximately 5cm of single-core wire, and use the wire-stripper to remove about 1cm or insulation from one end. You don't need to use a ruler to do this; just guess.
-- Using long-nose pliers to grip the stripped wire end, bend a sharp 90 degree bend in the wire. Poke the stripped end through the hole next to the 330 resistor, so that the stripped end is sticking out on the solder-side of the PCB.
-- Next, using your fingernail (or anything with a hard edge on it if you've got none), make a mark in the insulation where the second hole for the single-core repair is (next to the diode, see below). You should now have something that looks like the photo below.
-[[./img/link_wire.jpg]]
-- Now, use the wire stripper **CAREFULLY** to strip to the point where you made your mark, as seen in the photo above.
-- When stripped (it might take a few attempts to get this right), use long-nose pliers again to make another 90 degree bend in the wire, do you've got an "n" shape.
-- Insert the perfectly trimmed legs into the PCB, ensure the wire is sat flat on the board, bend the legs out 45 degree like before, then solder it in place. Trim with a side-cutter to finish the first link.
-- You can now repeat this process for multi-core wire, which runs down below the red wire (see picture below). It'll be more difficult, as the individual strands will try and escape - don't be surprised if it takes a few attempts to get this right.
-[[./img/links_done.jpg]]
-- The finished result should look something like this. My single-core (red) insulation looks slightly tatty; this is because I left the soldering iron on for too long, and it started to melt the insulation!
 [[./index.html][Back to homepage]]
