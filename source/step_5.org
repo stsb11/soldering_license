@@ -2,7 +2,7 @@
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="css/styles.css"/>
 #+HTML_HEAD_EXTRA: <link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono|Ubuntu' rel='stylesheet' type='text/css'>
 #+OPTIONS: f:nil author:nil num:1 creator:nil timestamp:nil 
-#+TITLE: Gluing Magnet
+#+TITLE: Gluing the Magnet
 #+AUTHOR: Stephen Brown
 
 #+BEGIN_HTML
@@ -79,30 +79,25 @@
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END:
-We're nearly there now, and you'll soon have the skills you need for nearly all the soldering work you'll perform up to A level! Sometimes, when we solder together a PCB, the tracks can lift off due to overheating, or through imperfections in the way the board was manufactured. When this happens, rather than make a whole new PCB and start from scratch, we can perform track repairs.
-
+We're nearly there now, you have completed all the soldering for the 'soldering licence'. Now we can make it into a fridge magnet by gluing a [[https://en.wikipedia.org/wiki/Neodymium_magnet][Neodymium]] Magnet on the back of the PCB. 
 ** Using hot glue gun
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: learn
 :END:
-- To perform a track repair, a short piece of wire (single-core, or a resistor leg) is soldered either side of where there is a break in the PCB track. The areas you need to repair have "Fix" written on them.
-[[./img/track_repairs.jpg]]
-- Step 1: Start by taking a resistor (any value you like), and cutting the leg off it, as shown in the picture above. You could also cut the other leg off at this point too for your second repair. Don't lose it, though!
-- Step 2: Use a side cutter to shorten the resistor leg, so that it sits about 2mm either side of the gap you're going to repair. Now, using scissors, cut a thin piece of masking tape, and use this to stick the wire over the gap and to hold it in place on the PCB. This is very fiddly, so it might take a few attempts to get it right. Just make sure its sitting nice and flat on the PCB.
-- Step 3: Carefully put the soldering iron onto the PCB, ensuring that you heat up both the leg and the track. After 3s, apply a small amount of solder, which should flow neatly onto the area. Remove the soldering iron slowly, then after a few seconds check that the wire has bonded to the track. Repeat the process for the other end of the repair.
-- Step 4: Remove the tape, and gently check that both sides are bonded to the board. You can now repeat the process for the other repair. 
-* Finishing Touches
-:PROPERTIES:
-:HTML_CONTAINER_CLASS: activity
-:END:
-** Sanding edges and corners
-:PROPERTIES:
-:HTML_CONTAINER_CLASS: build
-:END:
-- Your PCB looks good, but has sharp edges; it'd be nice to round these off.
-[[./img/sanding_board.jpg]]
-- Collect a sanding board so that you can give your fridge magnet a good finish, rounding off the corners as seen below.
-[[./img/done.jpg]]
-- Your soldering license is now complete, and ready for multimeter testing to confirm everything works properly. If you're going to put it on your keys, you can use a sheet of glasspaper to gently round the corners and edges off your PCB to stop it from ripping your pockets up. Well done!
+- We are going to use a Hot Glue Gun (as seen below) to glue the magnet to the PCB, before we do this, we need to ensure that you can use it safely, your teacher will go through this with you and here are the instuctions below to remind you:
+- 1. The tip of the glue gun will get very hot, make sure you do not touch this. 
+- 2. When putting the glue gun down, place it in the centre of the table with the tip facing inwards.
+- 3. Use the glue gun and then put it back on the table as quickly as reasonably possible, do not hold it and swing it around.
+- 4. When gluing, make sure no part of you body is directly below the gluing surface, as liquid glue can run over the edge and onto you.
+- 5. When gluing the object, remember that the glue will squeeze out the side and can get on your hands.
+- 6. The object you are gluing will also get hot and may burn you.
+- 7. If you burn yourself, run the burn under cold water for 10 minutes and report it to the teacher.
+[[./img/gluegun.jpg]]
+- Once the glue gun is hot enough (this usually takes around 10 minutes from cold) You will need to place a pea size amount of glue on the back of the PCB by gently squezzing the glue gun trigger.
+[[./img/gluingpcb.jpg]]
+[[./img/pcbandglue.jpg]]
+- Now place a magnet on the hot glue and press down gently. You will need to do this quickly before the glue cools down. *Be careful, some of the glue might Squeeze out of the sides and burn you.*
+[[./img/pcbandmagnet.jpg]]
+- Now you can stick the PCB on your fridge at home.
+- *Make sure there are no component legs that stick out past the magnet, as this might scratch your fridge.* 
 
-[[./index.html][Back to homepage]]

@@ -33,7 +33,7 @@
 :HTML_CONTAINER_CLASS: activity
 :END:
 
-* [[file:step_5.html][Lesson 5 - Gluing Magnet]]
+* [[file:step_5.html][Lesson 5 - Gluing the Magnet]]
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END:
