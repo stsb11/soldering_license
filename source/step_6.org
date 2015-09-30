@@ -90,7 +90,7 @@
 [[./img/NewFileSelection.JPG]]
 + At the bottom of the page are your Tab option. Make Sure you have selected circuit diagram.
 [[./img/PageOptions.JPG]]
-+ On the right hand side are all your component choices. You will be abble to find all you resistors, diodes and 8-pin carrier components here. The 8-pin carrier will need to be a 8-pin dual-in-line option. See the images below.
++ On the right hand side are all your component choices. You will be able to find all you resistors, diodes and 8-pin carrier components here. The 8-pin carrier will need to be a 8-pin dual-in-line option. See the images below.
 [[./img/resistorsOptions.JPG]]
 [[./img/Diode.JPG]]
 [[./img/8pin.JPG]]

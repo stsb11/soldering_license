@@ -93,10 +93,10 @@ We're nearly there now, you have completed all the soldering for the 'soldering 
 - 6. The object you are gluing will also get hot and may burn you.
 - 7. If you burn yourself, run the burn under cold water for 10 minutes and report it to the teacher.
 [[./img/gluegun.jpg]]
-- Once the glue gun is hot enough (this usually takes around 10 minutes from cold) You will need to place a pea size amount of glue on the back of the PCB by gently squezzing the glue gun trigger.
+- Once the glue gun is hot enough (this usually takes around 10 minutes from cold) You will need to place a pea size amount of glue on the back of the PCB by gently squeezing the glue gun trigger.
 [[./img/gluingpcb.jpg]]
 [[./img/pcbandglue.jpg]]
-- Now place a magnet on the hot glue and press down gently. You will need to do this quickly before the glue cools down. *Be careful, some of the glue might Squeeze out of the sides and burn you.*
+- Now place a magnet on the hot glue and press down gently. You will need to do this quickly before the glue cools down. *Be careful, some of the glue might squeeze out of the sides and burn you.*
 [[./img/pcbandmagnet.jpg]]
 - Now you can stick the PCB on your fridge at home.
 - *Make sure there are no component legs that stick out past the magnet, as this might scratch your fridge.* 

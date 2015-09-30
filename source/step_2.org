@@ -133,7 +133,7 @@ In a car, a circuit is needed to ensure that the airbags only deploy when there 
 - The aim of soldering is to join two metals together; in this case, the metal on the pad on the PCB and the component leg. To achieve this, both surfaces must be heated up for a few seconds, then solder can be melted which will flow on to both metals.
 - *Step 1:*  Place the tip of the soldering iron so that it is touching both the pad and the component leg. There is a flat edge on most irons which can be pushed against the leg, so that the very tip of the iron can make contact with the pad.
 
-- *Step 2:*  Count 3 seconds in your head, then (keeping the soldering iron in place) feed in a small amount of solder at the tip of the soldering iron. As long as the pad and leg are hot, the solder should flow oto the PCB nicely.
+- *Step 2:*  Count 3 seconds in your head, then (keeping the soldering iron in place) feed in a small amount of solder at the tip of the soldering iron. As long as the pad and leg are hot, the solder should flow onto the PCB nicely.
 
 - *Step 3:* Slowly remove the solder, then slowly remove the soldering iron, in that order. There should be a neat "mountain" of solder covering both the pad and the leg. The hole inthe PCB should no longer be visible.
 
