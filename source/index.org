@@ -45,7 +45,7 @@
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END:
-* [[./assess.html][Acheivements - the Badges]]
+* [[./assess.html][Achievements - the Badges]]
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END:
