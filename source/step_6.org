@@ -111,10 +111,17 @@
 [[./img/PCBlayoutTab.JPG]]
 + Building the PCB follows the same process as making the circuit diagram. You can find all the components on the right and drag them across.
 [[./img/PCBresistors.JPG]]
+[[./imgchoosingdiode.jpg]]
 + You can now start populating the PCB. And wiring them up. You will need to select the 'track' icon at the top of the page to run the tracks.
 [[./img/PCBtrackicon.JPG]]
 [[./img/StartPCB.JPG]]
++ Your PCB may look different to what you see on the screen. There are options to see different views, these can be chosen on the left hand side.
+[[./img/realworld.jpg]]
+[[./img/normalview.jpg]]
+[[./img/artwork.jpg]]
 + Now carry on with designing the rest of the PCB.
++ You can find the right integrated circuit (IC) in your options dropbox.
+[[./img/555timer.jpg]]
 [[./img/PCBcomplete.JPG]]
 
 * Virtual Testing
