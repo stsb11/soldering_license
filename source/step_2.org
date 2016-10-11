@@ -122,6 +122,10 @@ In a car, a circuit is needed to ensure that the airbags only deploy when there 
 :HTML_CONTAINER_CLASS: try
 :END:
 - Time to solder your first component. Plug a soldering iron in, ensure you're wearing an apron and goggles and that any long hair is tied back. The iron will take about 5 minutes to warm up. 
+- Before starting to solder, lets watch a video familiarising ourselves with the tools available.
+#+BEGIN_HTML
+<iframe width="560" height="315" src="https://www.youtube.com/embed/sQ2O2sjwDWU" frameborder="0" allowfullscreen></iframe>
+#+END_HTML
 - Wet the sponge under the tap, and wring it out, so it's damp but not dripping. 
 - Take a __Rectifier__ diode from the component trays, and look at it closely. Some components need to be inserted a certain way round, like this diode, which only allows electric current to flow through it in one direction.
 - The grey band on one end is like an arrow-head, indicating the direction of current-flow. There's also an arrow on the PCB between two of your holes. This is where the diode needs to go.
@@ -131,6 +135,10 @@ In a car, a circuit is needed to ensure that the airbags only deploy when there 
 - DON'T LAY THE LEGS DOWN FLAT AGAINST THE BOARD.
 [[./img/diode1.jpg]] 
 - The aim of soldering is to join two metals together; in this case, the metal on the pad on the PCB and the component leg. To achieve this, both surfaces must be heated up for a few seconds, then solder can be melted which will flow on to both metals.
+- Here is a video of basic soldering skills. 
+#+BEGIN_HTML
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dDXR4wfQYrU" frameborder="0" allowfullscreen></iframe>
+#+END_HTML
 - *Step 1:*  Place the tip of the soldering iron so that it is touching both the pad and the component leg. There is a flat edge on most irons which can be pushed against the leg, so that the very tip of the iron can make contact with the pad.
 
 - *Step 2:*  Count 3 seconds in your head, then (keeping the soldering iron in place) feed in a small amount of solder at the tip of the soldering iron. As long as the pad and leg are hot, the solder should flow onto the PCB nicely.
