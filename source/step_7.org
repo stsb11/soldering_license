@@ -94,6 +94,10 @@
 - Every time you pick up a multimeter, the first thing you should do is check if it is working correctly. As they are used all day long by lots of students, people forget to turn them off, the probe wires get damaged, the probes come loose from their sockets and so on. A continuity check from one probe straight to the other will confirm that everything is ok.
 - If you look carefully, you'll see that the insulation on the probes in the picture below has started to break down, and the wires are hanging slightly. These will break soon, hence the importance of testing!
 [[./img/cont.jpg]]
+- Here is a quick video tutorial on using the multimeter correctly.
+#+BEGIN_HTML
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3LyguFvjKKA" frameborder="0" allowfullscreen></iframe>
+#+END_HTML
 - **Step 1:** Check that the black (known as common) probe is plugged firmly into the socket labelled COM, and the red probe is plugged into the "V\Omega mA" socket. 
 - **Step 2:** Slowly turn the dial on the front of the meter round until the arrow-head is pointing at the continuity symbol (which looks like an arrow-head with a line next to it on most meters). This is shown in the picture above.
 - **Step 3:** The meter should now show a single number 1 on its display. This is telling you that the two probes aren't currently directly connected together. 
