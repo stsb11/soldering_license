@@ -167,11 +167,44 @@ In a car, a circuit is needed to ensure that the airbags only deploy when there 
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: badge
 :END:
-- Download and complete [[./resources/components.docx][this]] document.
-- For each of the components, find a picture of its circuit symbol
-- ...and a photo of the component.
-- There's a brief explanation of what the components do on the document, but it's not important at this stage that you learn these as you'll look at the components individually as you work through the year. For now, being able to know what you're looking at is our aim.
-- *Tip:* Google image search is quite handy for this activity
+- Below is a list of components:
+| <c>       | <c>                                                       |       
+| Component | Description                                               |       
+|           |                                                           |
+|           |                                                           |
+|-----------+-----------------------------------------------------------|
+| Resistor  | These act to reduce current flow, and, at the same        |
+|           | time, act to lower voltage levels within circuits         |
+|           |                                                           |
+|-----------+-----------------------------------------------------------|
+| Diode     | This is a two-terminal electronic component that conducts |
+|           | primarily in one direction.                               |
+|           |                                                           |
+|-----------+-----------------------------------------------------------|
+| Battery   | Transforms chemical energy into electricity.              |
+|           |                                                           |
+|-----------+-----------------------------------------------------------|
+| Switch    | An electrical component that can break an electrical      |
+|           | circuit.                                                  |
+|           |                                                           |
+|-----------+-----------------------------------------------------------|
+| LED       | A component which emits light when activated.             |
+|           |                                                           |
+|           |                                                           |
+|-----------+-----------------------------------------------------------|
+| Lamp      | It produces light with a wire filament heated to a high   |
+|           | temperature by an electric current passing through it,    |
+|           | until it glows.                                           |
+|-----------+-----------------------------------------------------------|
+| Motor     | An electrical device that creates motion by converting    |
+|           | electrical energy to kinetic energy.                      |
+|           |                                                           |
+|-----------+-----------------------------------------------------------|
+
+- Open Word document, PowerPoint document or text editor and paste the table above into it. Then for each of the components above, *find a picture* of its circuit symbol
+- ...and *a photo* of the component.
+- There's a brief explanation of what the components does above, but it's not important at this stage that you learn these as you'll look at the components individually as you work through the year. For now, being able to know what you're looking at is our aim.
+- *Tip:* Google image search is quite handy for this activity, *use the snipping tool to get a copy of the image.*
 
 * All about resistors
 :PROPERTIES:

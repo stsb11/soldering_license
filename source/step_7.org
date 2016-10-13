@@ -170,7 +170,39 @@
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: badge
 :END:
-- Download [[./resources/multi.docx][this]] file (save it to your Systems and Control project folder), and open it.
+| <c>                   | <c>     | <c>      | <c>      | <c>      |
+| Test                  | Meter   | Expected | Actual   | Pass?    |
+|                       | Setting | Reading  | Reading  |          |
+|                       |         |          |          |          |
+|-----------------------+---------+----------+----------+----------|
+| Any 330Ω resistor     | 2k      | 330      | e.g. 322 | e.g. yes |
+|                       | (2000)  |          |          |          |
+|-----------------------+---------+----------+----------+----------|
+| Any 1kΩ resistor      | 2k      | 1000     |          |          |
+|                       | (2000)  |          |          |          |
+|-----------------------+---------+----------+----------+----------|
+| Any 22Ω resistor      | 200k    | 22 000   |          |          |
+|                       |         |          |          |          |
+|-----------------------+---------+----------+----------+----------|
+| Find our the total    | 200k    | 110 000  |          |          |
+| value of the letter   |         |          |          |          |
+| 'S'                   |         |          |          |          |
+|-----------------------+---------+----------+----------+----------|
+| Test the diode,       | diode   | Forward  | Reverse  |          |
+| Find the diode        | symbol  | +/- 600  | +/-0     |          |
+| symbol on the         |         |          |          |          |
+| multimeter.           |         |          |          |          |
+|-----------------------+---------+----------+----------+----------|
+| Test the continuity   | 200     | 0        |          |          |
+| of the single core    |         |          |          |          |
+| wire                  |         |          |          |          |
+|-----------------------+---------+----------+----------+----------|
+| Test the continuity   | 200     | 0        |          |          |
+| of the stranded/multi |         |          |          |          |
+| core wire             |         |          |          |          |
+|-----------------------+---------+----------+----------+----------|
+
+- Copy the above table into a text document.
 - Using a multimeter, complete the table.
 - Upload your work for marking when finished to BourneToLearn.com
 
