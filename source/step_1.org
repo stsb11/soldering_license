@@ -129,37 +129,7 @@ In a car, a circuit is needed to ensure that the airbags only deploy when there 
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: learn
 :END:
-- Load up notepad on your computer, and paste the text below into the empty document:
-
-
-#+begin_src exercise
-1. Always wear an ________ when doing any practical work.
-
-2. Always wear safety _______________ when doing any practical work.
-
-3. Never use any _____________ that you have not been shown how to use safely.
-
-4. Always place the soldering _________ in the solder station when not in use.
-
-5. Never ______ in the workshop.
-
-6. Do not _________ objects around the workshop.
-
-7. Always __________ to instructions carefully. 
-
-8. Make sure any long ________ is tied back before using any machines.
-
-9. Ensure any Loose ___________ is either removed or tied back before using any machines. 
-
-
-Equipment  Run  Throw  Apron  Hair  Goggles  Iron  Listen  Clothing  
-#+end_src 
-
-- Using the words underneath the statements, fill in the missing spaces.
-- When finished:
-    - Make a 'Systems and Control' folder in your H: drive.
-    - Make a 'Year 7' folder inside it
-    - Make a '1 - Licence' folder inside that
-    - Save your work in this folder, calling it '*Safety.txt*'
-- Upload the work to [[https://www.bournetolearn.com][www.BourneToLearn.com]] using the username and password your teacher has given you.
+- Take the [[./quiz/popquiz.htm][Safety Quiz here]]. 
+- When finished, take a screenshot of your final score using the snipping tool.
+- Upload the screenshot to [[https://www.bournetolearn.com][www.BourneToLearn.com]]
 [[./index.html][Back to homepage]]
