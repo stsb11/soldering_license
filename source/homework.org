@@ -1,0 +1,134 @@
+#+STARTUP:indent
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+#+HTML_HEAD_EXTRA: <link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono|Ubuntu' rel='stylesheet' type='text/css'>
+#+OPTIONS: f:nil author:nil num:1 creator:nil timestamp:nil 
+#+TITLE: Multimeter testing
+#+AUTHOR: Stephen Brown
+
+#+BEGIN_HTML
+<div class=ribbon>
+<a href="https://github.com/stsb11/soldering_license">Fork me on GitHub</a>
+</div>
+#+END_HTML
+
+* COMMENT Use as a template
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:
+** Learn It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+
+** Research It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: research
+:END:
+
+** Design It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: design
+:END:
+
+** Build It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: build
+:END:
+
+** Test It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: test
+:END:
+
+** Run It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: run
+:END:
+
+** Document It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: document
+:END:
+
+** Code It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: code
+:END:
+
+** Program It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: program
+:END:
+
+** Try It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: try
+:END:
+
+** Badge It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: badge
+:END:
+
+** Save It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: save
+:END:
+
+* Homework Task 1
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:
+** Design It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: design
+:END:
+Design an instruction booklet on how to solder components together correctly. Make sure your booklet/poster should include:
+
+	-	Step-by-step instruction on how to solder.
+	-	What does a good solder joint look like.
+	-	Mistakes that can be made.
+	- 	How to ensure your safety.
+* Homework Task 2
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:
+** Complete It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: try
+:END:
+Complete the following resistor colour code table:
+
+| Colours                      |   Resistor value   |
+| Orange, Orange, Brown, Gold  |  330 Ohms          |
+| Brown, Black, Orange         |                    |
+| Yellow, Green, Red           |                    |
+| Red, Blue, Yellow            |                    |
+|                              | 15,000 Ohms (15k)  |
+|                              | 330 Ohms           |
+|                              | 1000 Ohms (1k)     |
+
+* Homework Task 3
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:
+** Explain It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+-  Firstly, explain, step-by-step, how you would test the value of a resistor using a multimeter.
+
+- Secondly, The multimeters we use have scale for measuring resistance, it is:
+
+		- 2000k
+		- 200k
+		- 20k
+		- 2000
+		- 200
+
+  For the following resistors, which scale would you select in order to get the best reading possible:
+
+		- 1000 ohms (1k)
+		- 220 ohms
+		- 10 000 ohms (10k)
+		- 220 000 ohms (220k)

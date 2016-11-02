@@ -45,6 +45,10 @@
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END:
+* [[./homework.html][Homework Tasks]]
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:
 * [[./assess.html][Achievements - the Badges]]
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
